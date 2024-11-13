@@ -39,13 +39,13 @@ You will need:
 
 ### Download image
 ```
-    docker pull karina1014/hello-world-go
+    docker pull karina1014/hello-world-perl-project:v1.0
 ```
 
 ### View the results
 You can open de CMD and run this :
 ```
-    docker run -it hello-world-go
+    docker run -it karina1014/hello-world-perl-project:v1.0
 ```
 With this command you will verify that you have the image in your docker.
 
