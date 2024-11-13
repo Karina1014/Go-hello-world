@@ -1,8 +1,6 @@
-
 # Hello world with Go 🌎
-## About the project
 
-A basic Go project that prints a "Hello World."
+A simple Go application that prints 'Hello, World! This message is generated using Go!'
 
 ## Built With
 
