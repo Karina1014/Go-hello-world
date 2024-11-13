@@ -47,13 +47,6 @@ docker run -it karina1014/hello-world-go:v1.0
 ```
 With this command you will verify that you have the image in your docker.
 
-You see the print in your browser: 
-
-
-```
-    localhost:8080
-```
-
 ## Image in DockerHub
 
 You need a Docker Hub account and to update your Go image.
