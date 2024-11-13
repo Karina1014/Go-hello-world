@@ -1,54 +1,81 @@
-# Hello World with Go 🌍
-![image](https://github.com/user-attachments/assets/bbf5fd27-cb7c-4c16-a3f1-0e3f3d994abb)
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#running-the-service">Running the Service</a></li>
-    <li><a href="#running-with-docker">Running with Docker</a></li>
-  </ol>
-</details>
+# Hello world with Go 🌎
+## About the project
 
-## About The Project
-
-This project demonstrates a simple web server created with **Go**, a statically typed, compiled programming language. The server responds with a "Hello World" message, showcasing basic HTTP server functionality in Go.
-
-## Overview
-
-This project sets up a simple HTTP server using Go's standard library. The server listens for requests on the root URL (`/`) and responds with "Hello, World! This message is generated using Go".
-
-## Features
-- Simple web server created using **Go**
-- Responds with a "Hello World" message at the root URL (`/`)
-- Easy to set up and run for beginners
+A basic Go project that prints a "Hello World."
 
 ## Built With
-- [Go](https://golang.org/) (for building the web server)
 
-## Getting Started
+This project build with:
+ * Go
+ * Dockerfile
 
-Follow these instructions to get the project up and running on your local machine.
+## Getting Started with Github: 
+* Clone the repository
 
-### Prerequisites
+    ```
+    git clone https://github.com/Karina1014/Go-hello-world.git
+    ```
 
-Make sure you have Go installed. You can verify this by running the following command:
 
-```bash
-go version
+## Pre-requisites
+
+* Make sure you have Visual Studio Code (VSC) installed on your laptop.
+
+* Open the app.rb file inside the VSC editor.
+
+* Use the following command to run the app:
+
+    ```
+    go run main.go
+    ```
+
+## How to run with docker
+You will need:
+
+* Docker - DockerDesktop installed
+* DockerHub account
+
+
+### Download image
 ```
+    docker pull karina1014/hello-world-go
+```
+
+### View the results
+You can open de CMD and run this :
+```
+    docker run -it hello-world-go
+```
+With this command you will verify that you have the image in your docker.
+
+You see the print in your browser: 
+
+
+```
+    localhost:8080
+```
+
+## Image in DockerHub
+
+You need a Docker Hub account and to update your Go image.
+
+![image](https://github.com/user-attachments/assets/b1b7e70a-8d5b-4f29-8849-c960a3f6a287)
+
+## How Deploy with Render:
+
+You need to link your Github account.
+
+## View the results on Render:
+You must log in to Render using your preferred GitHub account.
+
+Next: You need select the web service and deploy your project.
+![image](https://github.com/user-attachments/assets/b96ff8a2-a805-4468-b054-f2d08334f7c8)
+
+
+You see the app in this link:
+
+https://go-hello-world-docker.onrender.com
+
+
+![image](https://github.com/user-attachments/assets/217a6b39-dd88-478d-8d38-dcc046fe99ff)
