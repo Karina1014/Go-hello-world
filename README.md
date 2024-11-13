@@ -70,12 +70,11 @@ You need to link your Github account.
 You must log in to Render using your preferred GitHub account.
 
 Next: You need select the web service and deploy your project.
-![image](https://github.com/user-attachments/assets/b96ff8a2-a805-4468-b054-f2d08334f7c8)
 
+![image](https://github.com/user-attachments/assets/b96ff8a2-a805-4468-b054-f2d08334f7c8)
 
 You see the app in this link:
 
 https://go-hello-world-docker.onrender.com
-
 
 ![image](https://github.com/user-attachments/assets/217a6b39-dd88-478d-8d38-dcc046fe99ff)
