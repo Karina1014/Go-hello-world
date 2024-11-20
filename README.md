@@ -2,30 +2,47 @@
 
 A simple Go application that prints 'Hello, World! This message is generated using Go!'
 
-## Built With
+## 🚨 About the Project 🚨  
+This is an important message related to the project. Please read it carefully before proceeding:  
 
-This project build with:
- * Go
+- **main Branch**: Contains the app with the `Dockerfile`, ready to build and uploaded to DockerHub.  
+- **productionGo Branch**: Contains the deployed version of the app on Render.
+  
+## Built With  
 
-## Getting Started with Github: 
-* Clone the repository
+[![Go](https://img.shields.io/badge/Go-1.23.3-blue?style=for-the-badge&logo=go&logoColor=white&labelColor=101010)](https://go.dev/)
 
-    ```
-    git clone https://github.com/Karina1014/Go-hello-world.git
-    ```
+## Getting Started 
+* Clone the Repository  
+Use the following command to clone the repository:  
 
+ ```
+ git clone https://github.com/Karina1014/Go-hello-world.git
+ ```
 
-## Pre-requisites
+## Prerequisites  
 
-* Make sure you have Visual Studio Code (VSC) installed on your laptop.
+Before you begin, ensure the following:  
 
-* Open the app.rb file inside the VSC editor.
+**Visual Studio Code (VSC):**  
+   - Make sure you have Visual Studio Code installed on your laptop.  
+   - Open the `main.go` file in the VSC editor to edit or review the code.  
 
-* Use the following command to run the app:
+**Go Installation:**  
+   - Ensure you have **Go 1.23.3** or above installed.  
+   - You can check your Go version by running this command in your terminal:  
 
-    ```
-    go run main.go
-    ```
+     ```bash
+     go version
+     ```  
+
+## Running the Application  
+
+To run the application, execute the following command in your terminal:  
+
+```bash
+go run main.go
+```
 
 ## How Deploy with Render:
 
