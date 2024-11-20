@@ -2,7 +2,8 @@
 
 A simple Go application that prints 'Hello, World! This message is generated using Go!'
 
-🚨 About the Project 🚨
+## 🚨 About the Project 🚨
+
 This is an important message related to the project. Please read it carefully before proceeding:
 
 - **main Branch:** Contains the app with the Dockerfile, ready to build and uploaded to DockerHub.
